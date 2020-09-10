@@ -1,15 +1,19 @@
 import React from 'react';
-import Contador from './components/Contador';
-import Jsx from './components/Jsx';
-import Lista from './components/Lista';
+import { useForm } from "react-hook-form";
+// import Contador from './components/Contador';
+// import Jsx from './components/Jsx';
+// import Lista from './components/Lista';
+// import Formulario from './components/Formulario';
+import Formhooks from './components/Formhooks'
 
 function App() {
   return (
-    <div>
-      <h1>Hola Mundo</h1>
-      <Contador />
+    <div className="container mt-5">
+      <Formhooks />
+      {/* <Formulario /> */}
+      {/* <Contador />
       <Jsx />
-      <Lista />
+      <Lista /> */}
     </div>
   );
 }
