@@ -4,12 +4,15 @@ import { useForm } from "react-hook-form";
 // import Jsx from './components/Jsx';
 // import Lista from './components/Lista';
 // import Formulario from './components/Formulario';
-import Formhooks from './components/Formhooks'
+// import Formhooks from './components/Formhooks'
+import EjemploUno from './components/EjemploUno';
+
 
 function App() {
   return (
     <div className="container mt-5">
-      <Formhooks />
+      <EjemploUno />
+      {/* <Formhooks /> */}
       {/* <Formulario /> */}
       {/* <Contador />
       <Jsx />
